@@ -3,7 +3,7 @@ FROM ubuntu:20.04
 WORKDIR /opt
 
 RUN apt-get update \
- && apt-get install -y git build-essential libhdf5-dev \
+ && apt-get install -y --no-install-recommends git ca-certificates build-essential libhdf5-dev \
  && git clone https://github.com/ComparativeGenomicsToolkit/hal.git \
  && git clone https://github.com/ComparativeGenomicsToolkit/sonLib.git \
  && cd /opt/sonLib && make \
