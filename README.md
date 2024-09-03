@@ -12,5 +12,9 @@ This repository provides a Docker version of the specific command included in **
 
 ### Usage
 ```
+$ ls
+example.hal
 $ docker run --rm -v $(pwd):/work hchiba1/hal2maf example.hal example.maf
+$ ls
+example.hal example.maf
 ```
