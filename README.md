@@ -7,7 +7,7 @@ Released under the MIT license, see LICENSE.txt
 ```
 
 ## Docker version of HAL tools
-This repository provides a Docker version of a specific command.
+The [Dockerfile](https://github.com/hchiba1/hal/blob/main/Dockerfile) of this repository provides a Docker version of a specific command.
 * The Docker version of `hal2maf` is available on Docker Hub (https://hub.docker.com/r/hchiba1/hal2maf).
 
 ### Usage
