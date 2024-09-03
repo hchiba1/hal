@@ -9,7 +9,7 @@ RUN apt-get update \
  && cd /opt/sonLib && make \
  && cd /opt/hal && make \
  && cp -a /opt/hal/bin/hal2maf /opt \
- && cd /opt && rm -rf hal sonLib \
+ && rm -rf /opt/hal /opt/sonLib \
  && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /work
