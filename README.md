@@ -1,4 +1,4 @@
-# Hierarchical Alignment (HAL) Format API
+# Hierarchical Alignment (HAL) Format
 The original source repository is https://github.com/ComparativeGenomicsToolkit/hal.
 ```
 Copyright (C) 2012 - 2014 by Glenn Hickey (hickey@soe.ucsc.edu)
